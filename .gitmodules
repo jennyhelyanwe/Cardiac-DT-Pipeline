@@ -7,6 +7,7 @@
 [submodule "sim-based-inf-clin"]
 	path = sim-based-inf-clin
 	url = https://github.com/jennyhelyanwe/sim-based-inf-clin.git
+	branch = popht-maternal-personalisation
 [submodule "simcardems"]
 	path = simcardems
 	url = https://github.com/jennyhelyanwe/simcardems.git
