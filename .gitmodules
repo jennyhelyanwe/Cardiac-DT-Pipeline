@@ -10,6 +10,7 @@
 [submodule "simcardems"]
 	path = simcardems
 	url = https://github.com/jennyhelyanwe/simcardems.git
+	branch = biv-dev
 [submodule "biv-me"]
 	path = biv-me
 	url = https://github.com/UOA-Heart-Mechanics-Research/biv-me.git
