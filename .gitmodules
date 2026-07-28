@@ -15,3 +15,9 @@
 [submodule "biv-me"]
 	path = biv-me
 	url = https://github.com/UOA-Heart-Mechanics-Research/biv-me.git
+[submodule "cardiac-geometry-modulation"]
+	path = cardiac-geometry-modulation
+	url = https://github.com/jennyhelyanwe/cardiac-geometry-modulation.git
+[submodule "pregnancy-simcardems-sims"]
+	path = pregnancy-simcardems-sims
+	url = https://github.com/jennyhelyanwe/pregnancy-simcardems-sims.git
