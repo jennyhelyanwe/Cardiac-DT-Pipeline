@@ -7,13 +7,14 @@ This repo does not contain pipeline code itself — each stage lives in its own
 repo, included here as a git submodule.
 
 ## Pipeline stages
-
 | Submodule                          | Role                                                    |
 |-------------------------------------|----------------------------------------------------------|
 | `biv-me`                            | DICOM → surface mesh fitting tool                        |
 | `cardiac_dicom_to_surface_mesh`     | Colab glue code calling biv-me                           |
 | `cardiac_surface_to_volumetric_mesh`| Surface mesh → volumetric mesh (TetGen)                  |
 | `sim-based-inf-clin`                | Volumetric mesh → EP characteristic inference (SMC-ABC)  |
+| `geometry-modulation`               | Chamber anatomy modulation → new simulation-ready meshes |
+| `pregnancy-simcardems-sims`         | Simcardems runs across baseline + variant meshes × trimesters; ECG/PV biomarker sensitivity analysis |
 | `simcardems` (branch: `biv-dev`)    | Electromechanics simulation                              |
 
 ## Provenance
