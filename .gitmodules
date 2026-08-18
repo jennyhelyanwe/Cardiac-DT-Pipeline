@@ -21,3 +21,6 @@
 [submodule "pregnancy-simcardems-sims"]
 	path = pregnancy-simcardems-sims
 	url = https://github.com/jennyhelyanwe/pregnancy-simcardems-sims.git
+[submodule "cardiac-single-cell-em"]
+	path = cardiac-single-cell-em
+	url = git@github.com:jennyhelyanwe/cardiac-single-cell-em.git
